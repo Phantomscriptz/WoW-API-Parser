@@ -1,0 +1,16 @@
+﻿WOW API WORKBENCH 2.4.5 - DATABASE DISCOVERY
+Generated: 2026-08-14T05:55:26.6170266-07:00
+Database found: TRUE
+File: E:\WoW API Parser\WoW_API_Workbench_2.4.5\data\all_products_api.json
+Format: JSON
+Records loaded: 106822
+Usable product records: 55664
+
+PRODUCTION PRODUCTS
+Retail              16074 records
+Classic             13196 records
+Classic Era         13197 records
+Classic Anniversary 13197 records
+
+DATABASE VALIDATION: PASSED
+master_manifest.json: METADATA ONLY / NOT USED AS PRIMARY DATASET

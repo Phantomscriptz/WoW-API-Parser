@@ -1,0 +1,28 @@
+﻿{
+    "WorkbenchVersion":  "2.4.5",
+    "Generated":  "2026-08-14T05:55:26.6330253-07:00",
+    "Database":  {
+                     "Path":  "E:\\WoW API Parser\\WoW_API_Workbench_2.4.5\\data\\all_products_api.json",
+                     "Format":  "JSON",
+                     "TotalLoaded":  106822,
+                     "UsableProductRecords":  55664
+                 },
+    "Products":  {
+                     "Retail":  16074,
+                     "Classic":  13196,
+                     "ClassicEra":  13197,
+                     "ClassicAnniversary":  13197
+                 },
+    "Sources":  {
+                    "documented":  20104,
+                    "source_discovered":  35560
+                },
+    "Classes":  {
+                    "DOCUMENTED_API":  7629,
+                    "C_API":  12475,
+                    "ENUM_CONSTANT_CANDIDATE":  35388,
+                    "BLIZZARD_INTERNAL_OR_UNKNOWN":  172
+                },
+    "MasterManifestPolicy":  "metadata-only",
+    "NextStage":  "Canonical per-product availability normalization and API-specific real-world example generation."
+}

@@ -1,0 +1,33 @@
+{
+  "project": "WoW API Workbench",
+  "version": "2.5.0",
+  "phase": "Verified expansion-specific API inventory",
+  "objective": "Parse and verify every available WoW API for each supported product, then generate Basic, Modern, and Advanced real-world automation-oriented examples.",
+  "products": ["Retail", "Classic", "Classic Era", "Classic Anniversary"],
+  "source_roles": {
+    "Ketho BlizzardInterfaceResources": "primary API discovery/version-specific source",
+    "KethoDoc": "documentation/signature enrichment",
+    "Blizzard UI Source": "implementation/deprecation/source verification",
+    "Warcraft Wiki": "documentation/history/cross-reference",
+    "WoWInterface": "real addon usage/example research",
+    "CurseForge": "real addon usage/example research",
+    "Baneto Source Code": "example complexity/style inspiration ONLY; never API authority"
+  },
+  "hard_rules": [
+    "An API may be used in an example only if verified for the target product/build.",
+    "Baneto source must never establish API availability.",
+    "Unknown or unverified APIs must not be silently substituted or included.",
+    "Global Functions documentation does not imply availability in every expansion.",
+    "Examples may combine multiple verified WoW APIs.",
+    "Examples should be standalone functions where practical.",
+    "Examples target practical addon/bot automation use."
+  ],
+  "example_targets": {"basic": 1, "modern": 1, "advanced_max": 20},
+  "next_tasks": [
+    "Inspect the existing 2.4.5 parser/database architecture.",
+    "Add product/build-aware canonical API records.",
+    "Import Ketho branch data for Retail, Classic, Classic Era, and Classic Anniversary.",
+    "Implement API availability verification.",
+    "Implement generated-example dependency extraction and validation before example generation."
+  ]
+}

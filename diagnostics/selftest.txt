@@ -1,0 +1,13 @@
+﻿[PASS] PowerShell 5+ available
+[PASS] Workbench root detected
+[PASS] Workbench script path
+[PASS] Required directories
+[PASS] Diagnostics write access
+[PASS] Launcher scripts present
+[PASS] API database discovery engine
+[PASS] API database validation
+
+Workbench version: 2.4.5
+Root: E:\WoW API Parser\WoW_API_Workbench_2.4.5
+Script: E:\WoW API Parser\WoW_API_Workbench_2.4.5\WoW_API_Workbench.ps1
+Database: E:\WoW API Parser\WoW_API_Workbench_2.4.5\data\all_products_api.json

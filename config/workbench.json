@@ -1,0 +1,19 @@
+{
+  "version": "2.4.5.0",
+  "productionProducts": [
+    "Retail",
+    "Classic",
+    "ClassicEra",
+    "ClassicAnniversary"
+  ],
+  "databasePriority": [
+    "all_products_api.json",
+    "all_products_api.csv",
+    "canonical_api_database.json",
+    "canonical_api_database.csv",
+    "normalized_api_database.json",
+    "normalized_api_database.csv"
+  ],
+  "masterManifestIsPrimaryDatabase": false,
+  "kethoRepository": "Ketho/vscode-wow-api"
+}
