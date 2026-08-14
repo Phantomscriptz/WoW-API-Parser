@@ -1,8 +1,8 @@
 {
   "project": "WoW API Workbench",
   "version": "2.5.0",
-  "phase": "Verified expansion-specific API inventory",
-  "objective": "Parse and verify every available WoW API for each supported product, then generate Basic, Modern, and Advanced real-world automation-oriented examples.",
+  "phase": "Canonical per-product API normalization pipeline implemented",
+  "objective": "Parse and verify every available WoW API for each supported product, then generate Basic, Modern, and Advanced real-world examples.",
   "products": ["Retail", "Classic", "Classic Era", "Classic Anniversary"],
   "source_roles": {
     "Ketho BlizzardInterfaceResources": "primary API discovery/version-specific source",
@@ -20,14 +20,39 @@
     "Global Functions documentation does not imply availability in every expansion.",
     "Examples may combine multiple verified WoW APIs.",
     "Examples should be standalone functions where practical.",
-    "Examples target practical addon/bot automation use."
+    "Examples target practical addon/bot automation use.",
+    "Raw source records must remain distinguishable from canonical API records.",
+    "Descriptions must never be invented when the authoritative harvested data has no description."
   ],
-  "example_targets": {"basic": 1, "modern": 1, "advanced_max": 20},
+  "canonical_pipeline": [
+    "Load all_products_api.json locally.",
+    "Normalize product variants into Retail, Classic, Classic Era, and Classic Anniversary.",
+    "Group by productGroup plus FullName.",
+    "Retain source variants and branch evidence.",
+    "Prefer documented signatures over source-discovered records.",
+    "Emit canonical_api_database.json and one product JSON per supported product.",
+    "Validate uniqueness, variants, availability metadata, and product coverage."
+  ],
+  "observed_raw_inventory": {
+    "records": 106822,
+    "product_records": {
+      "Retail": 16074,
+      "Classic": 13196,
+      "ClassicBeta": 11569,
+      "ClassicPTR": 13189,
+      "ClassicEra": 13197,
+      "ClassicEraPTR": 13197,
+      "ClassicAnniversary": 13197,
+      "ClassicTitan": 13203
+    },
+    "expected_canonical_product_scoped_apis": 55334
+  },
   "next_tasks": [
-    "Inspect the existing 2.4.5 parser/database architecture.",
-    "Add product/build-aware canonical API records.",
-    "Import Ketho branch data for Retail, Classic, Classic Era, and Classic Anniversary.",
-    "Implement API availability verification.",
-    "Implement generated-example dependency extraction and validation before example generation."
+    "Integrate canonical builder and validator into the Workbench UI.",
+    "Import Ketho branch data and attach availability evidence.",
+    "Add API documentation enrichment from authoritative sources.",
+    "Implement dependency-aware Basic, Practical, and Advanced Lua example generation.",
+    "Add search and API detail views to the Windows UI.",
+    "Package the final Workbench as a Windows application."
   ]
 }
