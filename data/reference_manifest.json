@@ -1,0 +1,77 @@
+﻿[
+    {
+        "Name":  "Blizzard_UI_Source",
+        "Type":  "github",
+        "Role":  "primary",
+        "Url":  "https://github.com/Gethe/wow-ui-source",
+        "Status":  "ok",
+        "Branch":  "live"
+    },
+    {
+        "Name":  "Cludes_API_Tracker",
+        "Type":  "github",
+        "Role":  "change-tracker",
+        "Url":  "https://github.com/Cludes/blizzard-api-tracker",
+        "Status":  "ok",
+        "Branch":  "master"
+    },
+    {
+        "Name":  "Ketho_VSCode_WoW_API",
+        "Type":  "github",
+        "Role":  "editor-schema",
+        "Url":  "https://github.com/Ketho/vscode-wow-api",
+        "Status":  "ok",
+        "Branch":  "master"
+    },
+    {
+        "Name":  "Warcraft_Wiki_API",
+        "Type":  "web",
+        "Role":  "reference",
+        "Url":  "https://warcraft.wiki.gg/wiki/World_of_Warcraft_API",
+        "Status":  "failed",
+        "Branch":  null,
+        "Error":  "The remote server returned an error: (403) Forbidden."
+    },
+    {
+        "Name":  "Warcraft_Wiki_Classic_API",
+        "Type":  "web",
+        "Role":  "classic-reference",
+        "Url":  "https://warcraft.wiki.gg/wiki/World_of_Warcraft_API/Classic",
+        "Status":  "failed",
+        "Branch":  null,
+        "Error":  "The remote server returned an error: (403) Forbidden."
+    },
+    {
+        "Name":  "Wowpedia_API_Classic",
+        "Type":  "web",
+        "Role":  "classic-reference",
+        "Url":  "https://wowpedia.fandom.com/wiki/World_of_Warcraft_API/Classic",
+        "Status":  "failed",
+        "Branch":  null,
+        "Error":  "The remote server returned an error: (403) Forbidden."
+    },
+    {
+        "Name":  "WowProgramming",
+        "Type":  "web",
+        "Role":  "examples",
+        "Url":  "https://wowprogramming.com/snippets.html",
+        "Status":  "ok",
+        "Branch":  null
+    },
+    {
+        "Name":  "wow_tools_local",
+        "Type":  "github",
+        "Role":  "data-reference",
+        "Url":  "https://github.com/Marlamin/wow.tools.local",
+        "Status":  "ok",
+        "Branch":  "main"
+    },
+    {
+        "Name":  "Cludes_Tracker_Web",
+        "Type":  "web",
+        "Role":  "change-tracker",
+        "Url":  "https://cludes.github.io/blizzard-api-tracker/",
+        "Status":  "ok",
+        "Branch":  null
+    }
+]

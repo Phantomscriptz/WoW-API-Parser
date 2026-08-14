@@ -1,0 +1,190 @@
+﻿{
+    "Generated":  "2026-08-13T19:47:34.2217487-07:00",
+    "Products":  [
+                     {
+                         "Product":  "Retail",
+                         "Branch":  "live",
+                         "Commit":  "31c7f7b9cc79e56c986b365c06a6afbcf3c9177b",
+                         "SourceFiles":  2551,
+                         "DocumentationFiles":  613,
+                         "Systems":  361,
+                         "DocumentedFunctions":  6336,
+                         "SourceDiscoveredFunctions":  9738,
+                         "TotalSymbols":  16074,
+                         "Events":  1782,
+                         "Tables":  0,
+                         "PredicateBlocks":  613,
+                         "CallbackBlocks":  0,
+                         "GeneratedLuaFiles":  361
+                     },
+                     {
+                         "Product":  "ClassicAnniversary",
+                         "Branch":  "classic_anniversary",
+                         "Commit":  "e9bbe81652a6a3fddc6fb547c379218341899792",
+                         "SourceFiles":  1899,
+                         "DocumentationFiles":  535,
+                         "Systems":  284,
+                         "DocumentedFunctions":  4589,
+                         "SourceDiscoveredFunctions":  8608,
+                         "TotalSymbols":  13197,
+                         "Events":  1483,
+                         "Tables":  0,
+                         "PredicateBlocks":  535,
+                         "CallbackBlocks":  0,
+                         "GeneratedLuaFiles":  284
+                     },
+                     {
+                         "Product":  "ClassicEra",
+                         "Branch":  "classic_era",
+                         "Commit":  "7285babcfa6931f7c4265ce8672fa6d99c7bcaf1",
+                         "SourceFiles":  1899,
+                         "DocumentationFiles":  535,
+                         "Systems":  284,
+                         "DocumentedFunctions":  4589,
+                         "SourceDiscoveredFunctions":  8608,
+                         "TotalSymbols":  13197,
+                         "Events":  1483,
+                         "Tables":  0,
+                         "PredicateBlocks":  535,
+                         "CallbackBlocks":  0,
+                         "GeneratedLuaFiles":  284
+                     },
+                     {
+                         "Product":  "Classic",
+                         "Branch":  "classic",
+                         "Commit":  "ee771c39c640884d58d599f6c824f63d055b3ad7",
+                         "SourceFiles":  1898,
+                         "DocumentationFiles":  534,
+                         "Systems":  285,
+                         "DocumentedFunctions":  4590,
+                         "SourceDiscoveredFunctions":  8606,
+                         "TotalSymbols":  13196,
+                         "Events":  1483,
+                         "Tables":  0,
+                         "PredicateBlocks":  534,
+                         "CallbackBlocks":  0,
+                         "GeneratedLuaFiles":  285
+                     },
+                     {
+                         "Product":  "ClassicPTR",
+                         "Branch":  "classic_ptr",
+                         "Commit":  "ea6f4ee4ce0d457c02f479787293b702c062f067",
+                         "SourceFiles":  1896,
+                         "DocumentationFiles":  534,
+                         "Systems":  285,
+                         "DocumentedFunctions":  4584,
+                         "SourceDiscoveredFunctions":  8605,
+                         "TotalSymbols":  13189,
+                         "Events":  1482,
+                         "Tables":  0,
+                         "PredicateBlocks":  534,
+                         "CallbackBlocks":  0,
+                         "GeneratedLuaFiles":  285
+                     },
+                     {
+                         "Product":  "ClassicEraPTR",
+                         "Branch":  "classic_era_ptr",
+                         "Commit":  "43edf15776d9b120a321b2c1965c93d66438dba4",
+                         "SourceFiles":  1899,
+                         "DocumentationFiles":  535,
+                         "Systems":  284,
+                         "DocumentedFunctions":  4589,
+                         "SourceDiscoveredFunctions":  8608,
+                         "TotalSymbols":  13197,
+                         "Events":  1483,
+                         "Tables":  0,
+                         "PredicateBlocks":  535,
+                         "CallbackBlocks":  0,
+                         "GeneratedLuaFiles":  284
+                     },
+                     {
+                         "Product":  "ClassicBeta",
+                         "Branch":  "classic_beta",
+                         "Commit":  "4d9399a664eb65f2c8d5e96d7a6bf5e234414239",
+                         "SourceFiles":  1464,
+                         "DocumentationFiles":  411,
+                         "Systems":  214,
+                         "DocumentedFunctions":  3187,
+                         "SourceDiscoveredFunctions":  8382,
+                         "TotalSymbols":  11569,
+                         "Events":  1244,
+                         "Tables":  0,
+                         "PredicateBlocks":  0,
+                         "CallbackBlocks":  0,
+                         "GeneratedLuaFiles":  214
+                     },
+                     {
+                         "Product":  "ClassicTitan",
+                         "Branch":  "classic_titan",
+                         "Commit":  "825d29d3662b372f0bead725ee6abd339e4a77b5",
+                         "SourceFiles":  1898,
+                         "DocumentationFiles":  535,
+                         "Systems":  286,
+                         "DocumentedFunctions":  4595,
+                         "SourceDiscoveredFunctions":  8608,
+                         "TotalSymbols":  13203,
+                         "Events":  1486,
+                         "Tables":  0,
+                         "PredicateBlocks":  535,
+                         "CallbackBlocks":  0,
+                         "GeneratedLuaFiles":  286
+                     }
+                 ],
+    "TotalSymbols":  106822,
+    "ReferenceCatalog":  [
+                             {
+                                 "Url":  "https://github.com/Gethe/wow-ui-source",
+                                 "Name":  "Blizzard_UI_Source",
+                                 "Type":  "github",
+                                 "Role":  "primary"
+                             },
+                             {
+                                 "Url":  "https://github.com/Cludes/blizzard-api-tracker",
+                                 "Name":  "Cludes_API_Tracker",
+                                 "Type":  "github",
+                                 "Role":  "change-tracker"
+                             },
+                             {
+                                 "Url":  "https://github.com/Ketho/vscode-wow-api",
+                                 "Name":  "Ketho_VSCode_WoW_API",
+                                 "Type":  "github",
+                                 "Role":  "editor-schema"
+                             },
+                             {
+                                 "Url":  "https://warcraft.wiki.gg/wiki/World_of_Warcraft_API",
+                                 "Name":  "Warcraft_Wiki_API",
+                                 "Type":  "web",
+                                 "Role":  "reference"
+                             },
+                             {
+                                 "Url":  "https://warcraft.wiki.gg/wiki/World_of_Warcraft_API/Classic",
+                                 "Name":  "Warcraft_Wiki_Classic_API",
+                                 "Type":  "web",
+                                 "Role":  "classic-reference"
+                             },
+                             {
+                                 "Url":  "https://wowpedia.fandom.com/wiki/World_of_Warcraft_API/Classic",
+                                 "Name":  "Wowpedia_API_Classic",
+                                 "Type":  "web",
+                                 "Role":  "classic-reference"
+                             },
+                             {
+                                 "Url":  "https://wowprogramming.com/snippets.html",
+                                 "Name":  "WowProgramming",
+                                 "Type":  "web",
+                                 "Role":  "examples"
+                             },
+                             {
+                                 "Url":  "https://github.com/Marlamin/wow.tools.local",
+                                 "Name":  "wow_tools_local",
+                                 "Type":  "github",
+                                 "Role":  "data-reference"
+                             },
+                             {
+                                 "Url":  "https://cludes.github.io/blizzard-api-tracker/",
+                                 "Name":  "Cludes_Tracker_Web",
+                                 "Type":  "web",
+                                 "Role":  "change-tracker"
+                             }
+                         ]
+}

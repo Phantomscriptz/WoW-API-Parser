@@ -1,0 +1,13 @@
+{
+  "productionProducts": ["Retail", "Classic", "ClassicEra", "ClassicAnniversary"],
+  "maxExamplesPerApi": 20,
+  "categories": [
+    "BASIC", "PRACTICAL", "ADVANCED", "RECIPE", "EVENT_DRIVEN",
+    "DATA_COLLECTION", "STATE_MACHINE", "VALIDATION"
+  ],
+  "semanticDomains": [
+    "PLAYER", "UNIT", "TARGET", "MAP", "POSITION", "CASTING", "SPELL",
+    "AURA", "COOLDOWN", "COMBAT", "GROUP", "OBJECT", "GAMEOBJECT", "ITEM",
+    "INVENTORY", "QUEST", "INSTANCE", "UI", "EVENT", "ENUM", "CVAR"
+  ]
+}
