@@ -6,7 +6,7 @@ if errorlevel 1 (
     echo PowerShell is required.
     exit /b 1
 )
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0WoW_API_Workbench.ps1" -Action InspectSchema
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0Inspect_Database_Schema.ps1"
 if errorlevel 1 (
     echo.
     echo Schema inspection failed. See diagnostics\database_schema_report.txt
