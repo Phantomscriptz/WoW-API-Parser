@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "2.5.0",
+  "productionProducts": [
+    {
+      "product": "Retail",
+      "branch": "live",
+      "allowExamples": true
+    },
+    {
+      "product": "Classic",
+      "branch": "classic",
+      "allowExamples": true
+    },
+    {
+      "product": "ClassicEra",
+      "branch": "classic_era",
+      "allowExamples": true
+    },
+    {
+      "product": "ClassicAnniversary",
+      "branch": "classic_anniversary",
+      "allowExamples": true
+    }
+  ],
+  "referenceOnlyProducts": [
+    {
+      "product": "ClassicPTR",
+      "branch": "classic_ptr",
+      "reason": "PTR/reference data; never silently promoted to production availability"
+    },
+    {
+      "product": "ClassicEraPTR",
+      "branch": "classic_era_ptr",
+      "reason": "PTR/reference data; never silently promoted to production availability"
+    },
+    {
+      "product": "ClassicBeta",
+      "branch": "classic_beta",
+      "reason": "Beta/reference data; never silently promoted to production availability"
+    },
+    {
+      "product": "ClassicTitan",
+      "branch": "classic_titan",
+      "reason": "Reference/future branch data; never silently promoted to production availability"
+    }
+  ],
+  "rules": {
+    "sourcePresenceIsNotVerification": true,
+    "sourcePresenceMeansAvailable": false,
+    "examplesRequireVerifiedAvailability": true,
+    "advancedExampleMaximumPerApiProduct": 20
+  }
+}

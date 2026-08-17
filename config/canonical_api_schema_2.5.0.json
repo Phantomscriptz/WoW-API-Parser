@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "2.5.0",
+  "description": "Canonical expansion-aware representation derived from all_products_api.json. Source presence is evidence for inventory membership, not proof of runtime availability.",
+  "identity": {
+    "canonicalId": "stable product-scoped identifier; prefer Id when present, otherwise Product + FullName",
+    "apiId": "original Id from source inventory",
+    "name": "source Name",
+    "fullName": "source FullName",
+    "namespace": "source Namespace"
+  },
+  "scope": {
+    "product": "Retail | Classic | ClassicEra | ClassicAnniversary",
+    "branch": "source branch",
+    "environment": "source Environment",
+    "production": "boolean determined from config/product_matrix.json"
+  },
+  "source": {
+    "source": "source Source field",
+    "file": "source File field",
+    "system": "source System field"
+  },
+  "documentation": {
+    "description": "source Description field",
+    "arguments": "source Arguments field",
+    "returns": "source Returns field",
+    "flags": "source Flags field"
+  },
+  "verification": {
+    "availabilityStatus": "source-present | verified-available | verified-unavailable | unknown",
+    "verificationStatus": "unverified | verified | rejected",
+    "evidence": "structured evidence objects recorded in later verification stages",
+    "build": "target/source build identifier when independently established"
+  },
+  "examplePolicy": {
+    "basic": "allowed only when verificationStatus=verified and availabilityStatus=verified-available",
+    "moderate": "allowed only when verificationStatus=verified and availabilityStatus=verified-available",
+    "advancedMaximum": 20,
+    "dependenciesMustResolve": true
+  }
+}

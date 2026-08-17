@@ -1,9 +1,10 @@
 {
   "project": "WoW API Workbench",
   "version": "2.5.0",
-  "phase": "Verified expansion-specific API inventory",
-  "objective": "Parse and verify every available WoW API for each supported product, then generate Basic, Modern, and Advanced real-world automation-oriented examples.",
+  "phase": "Canonical production inventory foundation",
+  "objective": "Enumerate and verify the WoW API surface for each supported product/build, strictly separate expansion-specific availability, then generate Basic, Moderate, and Advanced practical in-game Lua functions and scenarios from only verified APIs.",
   "products": ["Retail", "Classic", "Classic Era", "Classic Anniversary"],
+  "reference_only_products": ["ClassicPTR", "ClassicEraPTR", "ClassicBeta", "ClassicTitan"],
   "source_roles": {
     "Ketho BlizzardInterfaceResources": "primary API discovery/version-specific source",
     "KethoDoc": "documentation/signature enrichment",
@@ -11,23 +12,42 @@
     "Warcraft Wiki": "documentation/history/cross-reference",
     "WoWInterface": "real addon usage/example research",
     "CurseForge": "real addon usage/example research",
-    "Baneto Source Code": "example complexity/style inspiration ONLY; never API authority"
+    "other technical/community sources": "supplemental API/example research subject to independent verification"
   },
   "hard_rules": [
     "An API may be used in an example only if verified for the target product/build.",
-    "Baneto source must never establish API availability.",
+    "Product/build separation is mandatory.",
+    "Source presence is not runtime availability verification.",
+    "PTR/beta/reference branches must not be silently promoted into production inventories.",
     "Unknown or unverified APIs must not be silently substituted or included.",
     "Global Functions documentation does not imply availability in every expansion.",
     "Examples may combine multiple verified WoW APIs.",
+    "Examples require dependency extraction and validation before acceptance.",
     "Examples should be standalone functions where practical.",
-    "Examples target practical addon/bot automation use."
+    "Examples target practical in-game addon/automation scenarios.",
+    "Advanced examples are capped at 20 per API/product target."
   ],
-  "example_targets": {"basic": 1, "modern": 1, "advanced_max": 20},
+  "example_targets": {
+    "basic": "at least 1 useful direct example where applicable",
+    "moderate": "at least 1 useful realistic composed example where applicable",
+    "advanced_max": 20,
+    "scenario_goal": "Create as many genuinely useful and varied scenarios as possible without exceeding the 20 advanced-example cap per API/product target."
+  },
+  "completed_foundation": [
+    "Inspected existing 2.4.5 database schema.",
+    "Confirmed all_products_api.json and all_products_api.csv contain 106822 records.",
+    "Confirmed one common source schema: Id, Product, Branch, Source, File, System, Namespace, Name, FullName, Environment, Description, Arguments, Returns, Flags.",
+    "Defined production versus reference-only product policy.",
+    "Defined canonical 2.5.0 API record schema.",
+    "Added read-only canonical production inventory builder."
+  ],
   "next_tasks": [
-    "Inspect the existing 2.4.5 parser/database architecture.",
-    "Add product/build-aware canonical API records.",
-    "Import Ketho branch data for Retail, Classic, Classic Era, and Classic Anniversary.",
-    "Implement API availability verification.",
-    "Implement generated-example dependency extraction and validation before example generation."
+    "Run Build_Canonical_Inventory.bat and review diagnostics/canonical_inventory_validation.txt.",
+    "Inspect product_diffs.json semantics and use it to drive expansion/version difference reporting.",
+    "Normalize and preserve source/build evidence in the canonical inventory.",
+    "Implement API availability verification and IsAPIAvailable(apiName, product, build).",
+    "Implement Lua API dependency extraction and validation.",
+    "Research and organize practical example scenarios from authoritative/community sources.",
+    "Only then implement Basic, Moderate, and Advanced example generation."
   ]
 }
